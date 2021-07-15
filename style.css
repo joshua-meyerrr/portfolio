@@ -1,0 +1,7 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* TODO: Create snippet (add margin/padding reset) */
