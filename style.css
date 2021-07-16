@@ -2,10 +2,10 @@
 
 :root {
   --base-color: #242424ff;
-  --sec-yel: #ffd770ff;
-  --sec-ora: #f66c51ff;
-  --sec-green: #71ad82ff;
-  --sec-blue: #9799caff;
+  --sec-1: #ffd770ff; /* yellow */
+  --sec-2: #f66c51ff; /* orange */
+  --sec-3: #71ad82ff; /* green */
+  --sec-4: #9799caff; /* blue */
 }
 
 *,
@@ -50,20 +50,20 @@ a {
   grid-template-rows: 0.5fr 1fr 0.5fr;
 }
 
-.orange {
-  color: var(--sec-ora);
+.sec-2 {
+  color: var(--sec-2);
 }
 
-.yellow {
-  color: var(--sec-yel);
+.sec-1 {
+  color: var(--sec-1);
 }
 
-.green {
-  color: var(--sec-green);
+.sec-3 {
+  color: var(--sec-3);
 }
 
-.blue {
-  color: var(--sec-blue);
+.sec-4 {
+  color: var(--sec-4);
 }
 
 /* header */
@@ -88,7 +88,7 @@ a {
 }
 
 h1 {
-  font-size: 4.5em;
+  font-size: 4em;
   line-height: 1.4;
 }
 
@@ -98,5 +98,5 @@ h1 {
 }
 
 .sub-head {
-  font-size: 2.75em;
+  font-size: 2.45em;
 }
