@@ -11,8 +11,8 @@
     <header class="container">
       <nav>
         <ul class="flex navigation">
-          <li><a href="#" class="blue">projects.log()</a></li>
-          <li><a href="#" class="orange">say.hi()</a></li>
+          <li><a href="#" class="sec-4">projects.log()</a></li>
+          <li><a href="#contact" class="sec-2">say.hi()</a></li>
         </ul>
       </nav>
     </header>
@@ -22,17 +22,17 @@
     <div class="showcase grid container">
       <div class="intro-text">
         <p class="sub-head">
-          <span class="green">&lt;</span>
-          <span class="blue">Web Developer</span>
+          <span class="sec-3">&lt;</span>
+          <span class="sec-4">Web Developer</span>
         </p>
         <h1>
-          <span class="orange">name</span> =
-          <span class="yellow">"Joshua Meyer"</span>
+          <span class="sec-2">name</span> =
+          <span class="sec-1">"Joshua Meyer"</span>
         </h1>
         <p class="sub-head">
-          <span class="orange">location</span> =
-          <span class="yellow">"Hamburg"</span>
-          <span class="green">&gt;</span>
+          <span class="sec-2">location</span> =
+          <span class="sec-1">"Hamburg"</span>
+          <span class="sec-3">&gt;</span>
         </p>
       </div>
       <img
@@ -40,6 +40,25 @@
         alt="picture of joshua meyer"
         class="pf"
       />
+    </div>
+
+    <!-- projects log here-->
+
+    <!-- contact form -->
+    <div class="container">
+      <h2 class="sec-4 sub-head" id="contact">#Say Hello</h2>
+      <div class="contact-form">
+        <div class="input-name">
+          <input type="text" name="name" placeholder="" required />
+        </div>
+        <div class="input-email">
+          <input type="email" name="email" placeholder="" required />
+        </div>
+        <div class="input-text">
+          <textarea name="message" id="message" cols="40" rows="4"></textarea>
+        </div>
+        <button class="btn send-btn">say.hi()</button>
+      </div>
     </div>
   </body>
 </html>
