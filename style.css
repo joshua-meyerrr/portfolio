@@ -32,10 +32,14 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  text-align: center;
+}
+
 /* utilities */
 
 .container {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -81,6 +85,7 @@ a {
 
 .showcase {
   height: 100%;
+  margin-bottom: 8em;
 }
 
 .intro-text {
@@ -108,5 +113,36 @@ h1 {
 /* contact form */
 
 .contact-form {
+  width: 1040px;
+  height: 560px;
+  background-image: url(assets/contact-snippet.png);
+  background-size: cover;
+  background-position-x: center;
   margin: 4.5em 0;
+  margin: 0 auto;
+  position: relative;
+  font-size: 2em;
+}
+
+.input-name {
+  position: absolute;
+  content: "";
+  left: 150px;
+  top: 250px;
+  font-size: 2em;
+}
+
+.input-email {
+  position: absolute;
+  content: "";
+  left: 350px;
+  top: 250px;
+}
+
+.input-text {
+  position: absolute;
+  content: "";
+  left: 150px;
+  top: 300px;
+  font-size: 40px;
 }
