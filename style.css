@@ -34,7 +34,7 @@ a {
 
 h2 {
   text-align: center;
-  margin: 16px 0;
+  margin: 8px 0;
 }
 
 /* utilities */
@@ -45,7 +45,8 @@ h2 {
   font-weight: bold;
   border-style: none;
   border-radius: 8px;
-  background-color: var(--sec-1);
+  background-color: var(--sec-2);
+  font-family: "Roboto Mono", monospace;
 }
 
 .btn:hover {
@@ -93,13 +94,18 @@ h2 {
 
 .navigation li {
   padding: 0 0.5em;
+  font-size: 1.25em;
+}
+
+.navigation a:hover {
+  font-weight: bold;
 }
 
 /* Showcase */
 
 .showcase {
-  height: 100vh - 53px;
-  /* 53px from header */
+  height: 100vh - 58px;
+  /* 58px from header */
 }
 
 .intro-text {
@@ -139,7 +145,7 @@ h1 {
 
 input {
   font-size: 18px;
-  color: var(--sec-1);
+  color: var(--sec-4);
   font-family: "Roboto Mono", monospace;
   background-color: transparent;
   border-style: none;
