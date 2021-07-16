@@ -1,5 +1,69 @@
+:root {
+  --base-color: #242424ff;
+  --sec-yel: #ffd770ff;
+  --sec-ora: #f66c51ff;
+  --sec-green: #71ad82ff;
+  --sec-blue: #9799caff;
+}
+
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #242424;
+  color: #fff;
+  font-family: "Space Mono", monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/* utilities */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.orange {
+  color: var(--sec-ora);
+}
+
+.yellow {
+  color: var(--sec-yel);
+}
+
+.green {
+  color: var(--sec-green);
+}
+
+.blue {
+  color: var(--sec-blue);
+}
+
+/* header */
+
+.navigation {
+  justify-content: flex-end;
+  margin: 1em 0;
+}
+
+.navigation li {
+  padding: 0 0.5em;
 }
