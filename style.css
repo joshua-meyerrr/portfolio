@@ -19,7 +19,6 @@
 body {
   background: url("assets/code-symbols.png") no-repeat, #242424;
   background-position: center;
-
   color: #fff;
   font-family: "Roboto Mono", monospace;
   overflow: hidden;
@@ -100,5 +99,4 @@ h1 {
 
 .sub-head {
   font-size: 2.75em;
-  /* text-align: center; */
 }
