@@ -155,11 +155,15 @@ h1 {
 
 input {
   font-size: 1.275em;
-  width: 700px;
+  width: 400px;
   color: var(--sec-1);
   font-family: "Space Mono", monospace;
   background-color: transparent;
   border-style: none;
+}
+
+input::placeholder {
+  color: var(--sec-1);
 }
 
 input:focus {
@@ -175,30 +179,34 @@ textarea {
   resize: none;
 }
 
+textarea::placeholder {
+  color: var(--sec-1);
+}
+
 textarea:focus {
   outline: none;
 }
 
 .contact-form input[name="name"] {
   position: absolute;
-  left: 240px;
-  bottom: 313px;
+  left: 230px;
+  bottom: 329px;
 }
 
 .contact-form input[name="email"] {
   position: absolute;
-  left: 255px;
-  bottom: 277px;
+  left: 242px;
+  bottom: 295px;
 }
 
 .contact-form textarea {
   position: absolute;
-  left: 285px;
-  bottom: 181px;
+  left: 270px;
+  bottom: 199px;
 }
 
 .contact-form .btn {
   position: absolute;
-  right: 100px;
-  bottom: 105px;
+  right: 55px;
+  bottom: 100px;
 }

@@ -49,34 +49,15 @@
       <h2 class="sec-4 sub-head" id="contact">#Say Hello</h2>
       <form>
         <div class="contact-form container">
-          <input
-            type="text"
-            name="name"
-            placeholder=""
-            value="&quot&quot"
-            required
-          />
-
-          <!-- 
-            PROBLEM: 
-              - input is hidden
-              - type email 
-                - <- quotation marks
-              - refresh after button click
-                - display values in url
-                - why?
-          -->
-
-          <input type="text" name="email" placeholder="" value="&quot&quot" />
+          <input type="text" name="name" placeholder='""' required />
+          <input type="email" name="email" placeholder='""' />
           <textarea
             name="message"
             id="message"
             cols="50"
             rows="3"
-            value="&quot&quot"
-          >
-""</textarea
-          >
+            placeholder='""'
+          ></textarea>
           <button class="btn">send.hi()</button>
         </div>
       </form>
