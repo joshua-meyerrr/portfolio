@@ -181,28 +181,24 @@ textarea:focus {
 
 .contact-form input[name="name"] {
   position: absolute;
-  content: "";
   left: 240px;
   bottom: 313px;
 }
 
 .contact-form input[name="email"] {
   position: absolute;
-  content: "";
   left: 255px;
   bottom: 277px;
 }
 
 .contact-form textarea {
   position: absolute;
-  content: "";
   left: 285px;
-  bottom: 151px;
+  bottom: 181px;
 }
 
 .contact-form .btn {
   position: absolute;
-  content: "";
   right: 100px;
   bottom: 105px;
 }
