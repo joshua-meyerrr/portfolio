@@ -1,11 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
 :root {
   --base-color: #242424ff;
   --sec-1: #ffd770ff; /* yellow */
   --sec-2: #f66c51ff; /* orange */
   --sec-3: #71ad82ff; /* green */
   --sec-4: #9799caff; /* blue */
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 2px;
 }
 
 *,
@@ -194,5 +204,5 @@ textarea:focus {
   position: absolute;
   content: "";
   right: 100px;
-  bottom: 100px;
+  bottom: 105px;
 }
