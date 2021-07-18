@@ -69,29 +69,29 @@
           </div>
           <div class="contact-code">
             <p><span class="sec-4">contactInfo</span> = {</p>
-            <p>
-              &emsp; <span class="sec-2">available</span> =
+            <p class="indent">
+              <span class="sec-2">available</span> =
               <span class="sec-3">true</span>,
             </p>
-            <p>
-              &emsp; <span class="sec-2">jobLocation</span> = [<span
-                class="sec-1"
+            <p class="indent">
+              <span class="sec-2">jobLocation</span> = [<span class="sec-1"
                 >"Hamburg"</span
-              >, <span class="sec-1">"Remote"</span>]<br />}<br /><br />
+              >, <span class="sec-1">"Remote"</span>]<br />
             </p>
+            <p>}<br /><br /></p>
             <p>
               <span class="sec-3">function</span>
               <span class="sec-1">send.hi</span>() {
             </p>
-            <p>&emsp; <span class="sec-4"> yourInformation</span> = {</p>
+            <p><span class="sec-4 indent">yourInformation</span> = {</p>
             <div class="flex">
-              <p>&emsp;&emsp; <span class="sec-2">name</span> =&nbsp;</p>
+              <p class="indent2"><span class="sec-2">name</span> =&nbsp;</p>
               <p class="sec-1">"</p>
               <input type="text" name="name" required />
               <p class="sec-1">"</p>
             </div>
             <div class="flex">
-              <p>&emsp;&emsp; <span class="sec-2">email</span> =&nbsp;</p>
+              <p class="indent2"><span class="sec-2">email</span> =&nbsp;</p>
               <div class="flex">
                 <p class="sec-1">"</p>
                 <input type="email" name="email" />
@@ -99,13 +99,18 @@
               </div>
             </div>
             <div class="flex top">
-              <p>&emsp;&emsp; <span class="sec-2">message</span> =&nbsp;</p>
+              <p class="indent2"><span class="sec-2">message</span> =&nbsp;</p>
               <div class="flex top">
                 <p class="sec-1">"</p>
                 <textarea name="msg" id="msg" cols="35" rows="4"></textarea>
                 <p class="sec-1">"</p>
               </div>
             </div>
+            <p class="indent">
+              <br /><span class="sec-3">return</span>
+              <span class="sec-4">yourInformation</span>
+            </p>
+            <p>}</p>
           </div>
           <button class="btn">send.hi()</button>
         </div>
