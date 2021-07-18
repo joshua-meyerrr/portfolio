@@ -44,7 +44,7 @@ a {
 
 h2 {
   text-align: center;
-  margin: 8px 0 0 0;
+  margin: 8px 0;
 }
 
 /* utilities */
@@ -143,12 +143,15 @@ h1 {
 /* contact form */
 
 .contact-form {
+  margin: 2em auto;
   width: 1040px;
-  height: 760px;
+  height: 620px;
   font-weight: 700;
-  background-image: url(assets/contact-snippet.png);
-  background-size: cover;
-  background-position-x: center;
+  /* background-image: url(assets/contact-snippet.png); */
+  /* background-size: cover; */
+  /* background-position-x: center; */
+  background-color: #333333;
+  border-radius: 8px;
   position: relative;
   filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.2));
 }
@@ -207,6 +210,52 @@ textarea:focus {
 
 .contact-form .btn {
   position: absolute;
-  right: 55px;
-  bottom: 100px;
+  right: 32px;
+  bottom: 32px;
 }
+
+.window-btn {
+  display: flex;
+  padding: 1em;
+}
+
+.window-btn div {
+  margin: 0 4px;
+}
+
+.window-btn div:first-child {
+  background-color: var(--sec-2);
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+}
+
+.window-btn div:nth-child(2) {
+  background-color: var(--sec-1);
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+}
+.window-btn div:nth-child(3) {
+  background-color: var(--sec-3);
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+}
+
+.contact-code {
+  margin: 0.5em 2em;
+  font-size: 1.5em;
+  color: var(--sec-1);
+  font-family: "Space Mono", monospace;
+}
+
+/* .social {
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 100px;
+}
+
+.fa {
+  padding: 0 4px;
+} */
