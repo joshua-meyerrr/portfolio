@@ -51,7 +51,7 @@ h2 {
 
 .btn {
   padding: 0.5em 1em;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: 700;
   border-style: none;
   border-radius: 8px;
@@ -71,6 +71,10 @@ h2 {
 .flex {
   display: flex;
   align-items: center;
+}
+
+.top {
+  align-items: flex-start;
 }
 
 .grid {
@@ -143,9 +147,10 @@ h1 {
 /* contact form */
 
 .contact-form {
+  line-height: 1.6;
   margin: 2em auto;
   width: 1040px;
-  height: 620px;
+  height: 600px;
   font-weight: 700;
   /* background-image: url(assets/contact-snippet.png); */
   /* background-size: cover; */
@@ -157,11 +162,14 @@ h1 {
 }
 
 input {
-  font-size: 1.275em;
-  width: 400px;
+  font-size: 0.9em;
   color: var(--sec-1);
+  font-weight: 700;
   font-family: "Space Mono", monospace;
-  background-color: transparent;
+  padding: 0 4px;
+  width: auto;
+  background-color: rgb(36, 36, 36, 0.3);
+  border-radius: 10px;
   border-style: none;
 }
 
@@ -174,10 +182,12 @@ input:focus {
 }
 
 textarea {
-  font-size: 1.275em;
+  font-size: 0.9em;
+  font-weight: bold;
   color: var(--sec-1);
   font-family: "Space Mono", monospace;
-  background-color: transparent;
+  background-color: rgb(36, 36, 36, 0.3);
+  border-radius: 10px;
   border: none;
   resize: none;
 }
@@ -190,28 +200,10 @@ textarea:focus {
   outline: none;
 }
 
-.contact-form input[name="name"] {
-  position: absolute;
-  left: 230px;
-  bottom: 329px;
-}
-
-.contact-form input[name="email"] {
-  position: absolute;
-  left: 242px;
-  bottom: 295px;
-}
-
-.contact-form textarea {
-  position: absolute;
-  left: 270px;
-  bottom: 199px;
-}
-
 .contact-form .btn {
   position: absolute;
-  right: 32px;
-  bottom: 32px;
+  right: 40px;
+  bottom: 40px;
 }
 
 .window-btn {
@@ -222,6 +214,8 @@ textarea:focus {
 .window-btn div {
   margin: 0 4px;
 }
+
+/* window buttons */
 
 .window-btn div:first-child {
   background-color: var(--sec-2);
@@ -246,8 +240,11 @@ textarea:focus {
 .contact-code {
   margin: 0.5em 2em;
   font-size: 1.5em;
-  color: var(--sec-1);
   font-family: "Space Mono", monospace;
+}
+
+.contact-code .flex {
+  padding: 4px 0;
 }
 
 /* .social {
