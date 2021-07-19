@@ -261,3 +261,41 @@ textarea:focus {
 .fa {
   padding: 0 4px;
 } */
+
+/* @media screen and (max-width: 600px) {
+  .showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .intro-text {
+    font-size: 0.55em;
+  }
+
+  .pf {
+    width: 300px;
+    padding-top: 4em;
+  }
+
+  .contact-form {
+    width: 500px;
+    height: 800px;
+  }
+} */
+@media screen and (max-width: 1500px) {
+  .pf {
+    width: 400px;
+  }
+
+  .intro-text {
+    font-size: 0.85em;
+  }
+
+  .contact-form {
+    min-width: 850px;
+    width: auto;
+  }
+}
