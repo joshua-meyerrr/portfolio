@@ -31,7 +31,6 @@ body {
   background-position: top;
   color: #fff;
   font-family: "Roboto Mono", monospace;
-  /* overflow: hidden; */
 }
 
 ul {
@@ -143,9 +142,18 @@ h1 {
   line-height: 1.4;
 }
 
+img {
+  width: 100%;
+  height: auto;
+  /* object-fit: cover; */
+}
+
 .pf {
   grid-column: 3/4;
   grid-row: 2/3;
+  align-self: center;
+  min-width: 300px;
+  padding-left: 2em;
 }
 
 .sub-head {
@@ -286,9 +294,9 @@ textarea:focus {
   }
 } */
 @media screen and (max-width: 1500px) {
-  .pf {
+  /* .pf {
     width: 400px;
-  }
+  } */
 
   .intro-text {
     font-size: 0.85em;
