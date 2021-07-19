@@ -78,7 +78,8 @@ h2 {
 
 .grid {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 2fr)); */
+  /* grid-template-columns: 2fr 1fr; */
   grid-template-rows: 0.5fr 1fr 0.5fr;
 }
 
@@ -270,8 +271,8 @@ textarea:focus {
   padding: 0 4px;
 } */
 
-/* @media screen and (max-width: 600px) {
-  .showcase {
+@media screen and (max-width: 600px) {
+  .hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -289,21 +290,38 @@ textarea:focus {
   }
 
   .contact-form {
-    width: 500px;
-    height: 800px;
-  }
-} */
-@media screen and (max-width: 1500px) {
-  /* .pf {
+    font-size: 0.5em;
     width: 400px;
-  } */
+    height: 400px;
+  }
+
+  .indent {
+    margin-left: 10px;
+  }
+
+  .indent2 {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .pf {
+    max-width: 430px;
+  }
 
   .intro-text {
-    font-size: 0.85em;
+    font-size: 0.8em;
   }
 
   .contact-form {
-    min-width: 850px;
-    width: fit-content;
+    width: auto;
+    min-width: 500px;
+  }
+
+  .indent {
+    margin-left: 20px;
+  }
+
+  .indent2 {
+    margin-left: 40px;
   }
 }
