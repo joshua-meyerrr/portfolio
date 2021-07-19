@@ -153,7 +153,6 @@ img {
   grid-column: 3/4;
   grid-row: 2/3;
   align-self: center;
-  min-width: 300px;
   padding-left: 2em;
 }
 
@@ -271,9 +270,10 @@ textarea:focus {
   padding: 0 4px;
 } */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1100px) {
   .hero {
     display: flex;
+    gap: 5rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -281,28 +281,40 @@ textarea:focus {
   }
 
   .intro-text {
-    font-size: 0.55em;
+    font-size: 0.5em;
   }
 
   .pf {
     width: 300px;
     padding-top: 4em;
   }
+}
+
+@media screen and (max-width: 900px) {
+  .hero {
+    font-size: 0.8em;
+  }
 
   .contact-form {
-    font-size: 0.5em;
+    font-size: 0.8em;
     width: 400px;
-    height: 400px;
+    height: 570px;
   }
 
   .indent {
-    margin-left: 10px;
+    margin-left: 5px;
   }
 
   .indent2 {
-    margin-left: 20px;
+    margin-left: 10px;
+  }
+
+  .contact-form .btn {
+    bottom: 20px;
+    right: 20px;
   }
 }
+
 @media screen and (max-width: 1500px) {
   .pf {
     max-width: 430px;
@@ -310,6 +322,7 @@ textarea:focus {
 
   .intro-text {
     font-size: 0.8em;
+    white-space: nowrap;
   }
 
   .contact-form {
@@ -322,6 +335,16 @@ textarea:focus {
   }
 
   .indent2 {
+    margin-left: 40px;
+  }
+
+  .area {
+    /* display: inline-block; */
+    white-space: nowrap;
+    flex-direction: column;
+  }
+
+  .area-indent {
     margin-left: 40px;
   }
 }
